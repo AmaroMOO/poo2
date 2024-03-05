@@ -48,3 +48,8 @@ def mtDiv(id:str, *clas:str, content:str)->str
 
     return resultado
  
+
+### Ejercicio 5
+
+def myScript(*src:str)->str:
+Funcion que tiene como entrada un numero indeterminado de cadenas de caracteres y como salida una cadena de caracteres. Probablemente transforma las entradas en la salida. 
