@@ -1,5 +1,5 @@
 ### Parametro posicional
-def tipicaFuncion(unpar:str, dospar:str)->str:
+def tipicaFuncion(unpar:int, dospar:int)->None:
     pass
 
 tipicaFuncion(3, 6)
@@ -8,9 +8,16 @@ tipicaFuncion(3, 6)
 
 
 ### Parametro con valor por defecto
-def tipicaFuncion(unpar:str, dospar = 6:str)->str:
+def tipicaFuncion(unpar:int, dospar = 6:int)->None:
     pass
 
 tipicaFuncion(3)
 #unpar = 3
 #dospar = 6
+
+
+### Parametro arbitrario
+def tipicaFuncion(unpar:int, *dospar:int, content:int)->None:
+    pass
+
+tipicaFuncion()
