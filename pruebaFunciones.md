@@ -20,4 +20,6 @@ tipicaFuncion(3)
 def tipicaFuncion(unpar:int, *dospar:int, content:int)->None:
     pass
 
-tipicaFuncion()
+tipicaFuncion(3, 6, 6, 6, content=3)
+
+
