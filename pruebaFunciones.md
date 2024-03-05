@@ -31,3 +31,20 @@ def tipicaFuncion(*,unpar:int, dospar:int)->None
 tipicaFuncion(dospar = 6, unpar = 3)
 #unpar = 3
 #dospar = 6
+
+### Ejercicio 3
+def mtDiv(id:str, *clas:str, content:str)->str
+    resultado = ''
+
+    resultado += '<div id="' + id + '" '
+
+    if len(clas) != 0:
+        resultado += 'class = "'
+
+        for e in class:
+            resultado += e + ','
+
+        resultado += '"'
+
+    return resultado
+ 
