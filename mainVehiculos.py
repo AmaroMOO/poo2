@@ -1,4 +1,8 @@
 from automovil import automovil
+from bicicleta import Bicicleta
+from camion import camion
+from moto import Moto
+
 
 def main():
     automovil = automovil(4, "amarillo")
