@@ -22,4 +22,16 @@ https://docs.github.com/es/get-started/writing-on-github/getting-started-with-wr
 https://mermaid.js.org/syntax/classDiagram.html
 
 
+### Ejercicio 2
+```mermaid
+classDiagram
+    note "Vehiculo"
+    Vehiculo <|-- Automovil
+    Automovil <|-- Camion
+    Vehiculo <|-- Bicicleta
+    Bicicleta <|-- Moto
 
+    Vehiculo : +int ruedas
+    Vehiculo : +str color
+    Vehiculo: +info()
+```
